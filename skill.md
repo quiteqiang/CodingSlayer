@@ -49,6 +49,7 @@ for (int i=0; i<nums.length; i++) {
 Sample:
 https://www.hackerrank.com/challenges/the-birthday-bar/problem
 
+
 5. HashMap去重，统计
 ```java
 Map<String, Integer> map = new HashMap<>();
