@@ -120,3 +120,30 @@ if ('A'<=chs[p] && chs[p]<'Z')
 Arrays.toString(Arrays.stream(array).toArray())
 ```
 
+
+10. 3数之和， 4数之和
+```java
+
+```
+
+11. 遍历数字
+```java
+while () {
+    int temp = x % 10;
+    
+}
+
+```
+
+11. 贪婪算法
+```java
+找到循环不变量，找最多！
+https://leetcode.cn/problems/jump-game/
+```
+
+
+
+
+
+
+
