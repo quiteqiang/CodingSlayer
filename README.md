@@ -143,7 +143,9 @@ https://leetcode.cn/problems/jump-game/
 
 
 
-
-
+12. ArrayList -> []
+```java
+ans.stream().mapToInt(x -> x).toArray();
+```
 
 
