@@ -2,6 +2,7 @@
 - [数组循环](#array-loop)
 - [二分搜索](#binary-search)
 - [数组转换list](#arraylist-to-list)
+- [滑动窗口](#sliding-window)
 
 ### Array Loop
 
@@ -36,9 +37,10 @@ while (l < = r ) {
 ```
 
 
-3. 滑动窗口
+### Sliding Window
 
 ```java
+// 滑动窗口
 int res = 0;
 for (int i = 0; i<nums.length; i++) {
    // 处理零时变量的逻辑
