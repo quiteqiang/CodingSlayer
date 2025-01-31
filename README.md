@@ -1,7 +1,7 @@
 ## Leetcode
 - [数组循环](#array-loop)
 - [二分搜索](#binary-search)
-- [数组转换list](#arraylist-to-list)
+- [数组转换array](#arraylist-to-list)
 - [滑动窗口](#sliding-window)
 
 ### Array Loop
@@ -144,7 +144,7 @@ while () {
 https://leetcode.cn/problems/jump-game/
 ```
 
-### ArrayList to list
+### ArrayList to array
 ```java
 ans.stream().mapToInt(x -> x).toArray();
 ```
