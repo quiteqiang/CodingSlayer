@@ -149,4 +149,10 @@ https://leetcode.cn/problems/jump-game/
 ans.stream().mapToInt(x -> x).toArray();
 ```
 
+### Array to String
+```java
+Char[] chs = s.toCharArray();
+return new String(chs);
+```
+
 
