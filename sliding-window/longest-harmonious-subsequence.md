@@ -5,7 +5,8 @@ Subsequence: A subsequence is an array that can be derived from another array by
 
 Input: int[] nums
 先Arrays.sort(nums)， 保持数组顺序，方便后面计算
-时间： O(n*log(n)) -> Quick Sort
+时间： O(n*log(n)) -> Quick Sort 
+空间： O(n)
 https://leetcode.cn/problems/longest-harmonious-subsequence/
 ```
 
