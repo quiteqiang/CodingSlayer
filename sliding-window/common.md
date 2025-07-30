@@ -7,6 +7,7 @@ https://leetcode.cn/problems/defuse-the-bomb/submissions/
 https://leetcode.cn/problems/substrings-of-size-three-with-distinct-characters
 https://leetcode.cn/problems/minimum-recolors-to-get-k-consecutive-black-blocks
 https://leetcode.cn/problems/minimum-difference-between-highest-and-lowest-of-k-scores/
+https://leetcode.cn/problems/longest-even-odd-subarray-with-threshold/
 ```
 
 ```java
