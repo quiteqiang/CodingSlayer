@@ -4,8 +4,9 @@
 Easy
 https://leetcode.cn/problems/maximum-average-subarray-i/
 https://leetcode.cn/problems/defuse-the-bomb/submissions/
-
-
+https://leetcode.cn/problems/substrings-of-size-three-with-distinct-characters
+https://leetcode.cn/problems/minimum-recolors-to-get-k-consecutive-black-blocks
+https://leetcode.cn/problems/minimum-difference-between-highest-and-lowest-of-k-scores/
 ```
 
 ```java
