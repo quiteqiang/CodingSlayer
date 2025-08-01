@@ -35,4 +35,12 @@ class Solution {
         return s;
     }
 }
+
+
+https://leetcode.cn/problems/longest-even-odd-subarray-with-threshold/
+
+分组处理思想：数组会被分割成若干组，且每一组的判断/处理逻辑是一样的。
+核心思想：
+1. 外层循环负责遍历组之前的准备工作（记录开始位置），和遍历组之后的统计工作（更新答案最大值）。
+2. 内层循环负责遍历组，找出这一组最远在哪结束。
 ```
