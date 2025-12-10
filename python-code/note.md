@@ -68,3 +68,16 @@ def mergeTwoLists(self, l1, l2):
         l2.next = self.mergeTwoLists(l1, l2.next)
         return l2
 ```
+
+### 双指针
+```python
+#Easy:
+# https://leetcode.cn/problems/remove-duplicates-from-sorted-array/
+def removeDuplicates(self, nums):
+    p = 1
+    for i in range(1, len(nums)):
+        if nums[i] != nums[i-1]:
+            nums[p] = nums[i]
+            p+=1
+    return p
+```
