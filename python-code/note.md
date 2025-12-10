@@ -51,3 +51,20 @@ def fib(self, n):
         n1 = temp
     return n2
 ```
+
+### 递归 合并两个有序链表
+```python
+核心思路： 从下一个节点开始递归
+def mergeTwoLists(self, l1, l2):
+    if not l1:
+        return l2
+    elif not l2:
+        return l1
+
+    if l1.val <= l2.val:
+        l1.next = self.mergeTwoLists(l1.next,l2)
+        return l1
+    else:
+        l2.next = self.mergeTwoLists(l1, l2.next)
+        return l2
+```
