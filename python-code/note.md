@@ -81,3 +81,17 @@ def removeDuplicates(self, nums):
             p+=1
     return p
 ```
+
+### Binary Searc
+# https://leetcode.cn/problems/search-insert-position/description/  
+```python
+  def searchInsert(self, nums, target):
+      l, r = 0, len(nums)
+      while l < r:
+          mid = l + (r - l) // 2
+          if nums[mid]<target: 
+              l = mid+1
+          else:
+              r = mid
+      return l
+```
