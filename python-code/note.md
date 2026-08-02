@@ -4,7 +4,7 @@
 Easy
 
 ```
-### 快排
+### 快排 Quick Sort
 ```python
 核心思路： 对每个subset进行分治
 def quick_sort(nlst):
@@ -95,3 +95,7 @@ def removeDuplicates(self, nums):
               r = mid
       return l
 ```
+
+### 贪心
+# https://leetcode.cn/problems/assign-cookies/?envType=problem-list-v2&envId=greedy
+## 核心思路： 用当前最小的饼干找到适合的胃口最小的人
