@@ -82,9 +82,9 @@ def removeDuplicates(self, nums):
     return p
 ```
 
-### Binary Searc
-# https://leetcode.cn/problems/search-insert-position/description/  
+### 二分搜索 Binary Search
 ```python
+# https://leetcode.cn/problems/search-insert-position/description/  
   def searchInsert(self, nums, target):
       l, r = 0, len(nums)
       while l < r:
@@ -97,5 +97,8 @@ def removeDuplicates(self, nums):
 ```
 
 ### 贪心
+```python
 # https://leetcode.cn/problems/assign-cookies/?envType=problem-list-v2&envId=greedy
 ## 核心思路： 用当前最小的饼干找到适合的胃口最小的人
+
+```

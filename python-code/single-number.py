@@ -1,5 +1,6 @@
 # 只出现一次的数字
 # 核心思路：^ 操作，同样的数字操作等于0， 不同数字操作等于1
+# ^ Bitwise Operator
 def singleNumber(nums):
     """
     :type nums: List[int]
