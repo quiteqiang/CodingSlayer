@@ -1,14 +1,20 @@
-def fourSum(nums):
-  a =[1,1]
-  b=[0,0]
-  print(a in nums)
-  print(b in nums)
-
-nums = [[1,1], [0,0]]
-fourSum(nums)
+from collections import defaultdict
 
 
-3
-2
-1
- 1 2 3 
+def lengthOfLongestSubstring( s: str) -> int:
+  counter = defaultdict(int)
+  ans = left = 0
+
+  for i, c in enumerate(s):
+      print(counter)
+      print(str(left) + "    " + str(i))
+      counter[c] += 1
+      
+      while counter[c] >1:
+          counter[s[left]]-=1
+          left+=1
+          
+      anx = max(ans, i - left + 1)
+  return ans
+
+print(lengthOfLongestSubstring("abcabcbb"))

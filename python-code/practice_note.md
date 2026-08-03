@@ -42,3 +42,12 @@ for i, j in enemerate(s):
 1 3 4
 ```
 
+## Sliding Window
+```python
+# 典型的解题思路：
+for Loop + while loop 
+# defaultdict() -> Pro verison of dictionary with default value of 0 
+#   easy to use
+```
+
+
